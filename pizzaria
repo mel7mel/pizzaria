@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Delícia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #f4a460;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        img {
+            width: 300px;
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pizzaria Delícia</h1>
+        <p>O melhor sabor da cidade!</p>
+    </header>
+
+    <main>
+        <h2>Sabores de Pizza</h2>
+        <img src="pizza.jpg" alt="Pizza deliciosa">
+        <ul>
+            <li>Calabresa - R$ 35,00</li>
+            <li>Quatro Queijos - R$ 40,00</li>
+            <li>Portuguesa - R$ 38,00</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>Contato: (11) 98765-4321 | Endereço: Rua das Pizzas, 123</p>
+    </footer>
+</body>
+</html>
